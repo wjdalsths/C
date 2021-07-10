@@ -1,0 +1,41 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	//1.완전수:자신을 제외한 양의 약수들의 합으로 표현되는 양의 정수
+	//ex)6약수:1,2,3,6 자신을 제외한수의 합은 1+2+3=6 합이 자신과 같으므로 완전수
+	/*int num, i = 1, sum;
+	printf("input number >>");
+	scanf("%d", &num);
+	while (i < num)
+	{
+		if (num % i == 0)
+		{
+			sum += i;
+		}
+		i++;
+	}
+	if (num == sum)
+		printf("완전수이다\n");
+	else
+		printf("완전수가 아니다");*/
+
+		//완전수 수 구하기
+		/*int i, sum;
+		for (int num = 1; num <=100 ; num++)
+		{
+			i = 1;
+			sum = 0;
+			while (i < num)
+			{
+				if (num % i == 0)
+				{
+					sum += i;
+				}
+				i++;
+			}
+			if (num == sum)
+				printf("%d\n", num);
+		}*/
+	return 0;
+}
