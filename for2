@@ -1,0 +1,27 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	//문제5
+	/*int i, j;
+	for (j = 0; j < 5; j++)
+	{
+
+		for (i = 0; i <= j; i++)
+			printf("*");
+
+		printf("\n");
+	}*/
+
+	//문제6
+	/*int i, j;
+	for (i = 0; i < 5 ; i++)
+	{
+	for (j = 0; j < 5; j++)
+	{
+		printf("%d", i+1);
+	}
+	printf("\n");
+	}*/
+  return 0;
+}
