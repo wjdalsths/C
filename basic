@@ -1,0 +1,86 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //문제1
+	/*int a;    
+	a = -100;
+	printf("%d\n", a);
+	printf("a=%d\n", a);*/
+
+	//문제2
+	/*int a, b;
+	a = 55;
+	b = 10;
+	printf("%d - %d = %d\n", a, b, a - b);
+	a = 2008;
+	b = 1999;
+	printf("%d - %d = %d\n", a, b, a - b);*/
+
+	//문제3
+	/*int r = 5;
+	double pi = 3.14;
+	printf("원주:%.2f\n넓이:%.2f\n",2*pi*r,pi*r*r);*/
+
+	//문제4   전체자리수.소수점이하자리수
+	/*float yd = 91.44,in=2.54;
+	printf("2.1yd=%4.1fcm\n", yd * 2.1);
+	printf("10.5in=%4.1fcm\n", in * 10.5);*/
+	/*double yd = 2.1, in = 10.5;
+	printf("%4.1fyd=%5.1fcm\n", yd, yd * 91.44);
+	printf("%4.1fin=%5.1fcm\n", in, in * 2.54);*/
+
+	//문제5
+	/*int height;
+	printf("height = " );
+	scanf("%d", &height);
+	printf("your height is %dcm\n",height);*/
+
+	//문제6
+	/*int a, b;
+	printf("input two number >> ");
+	scanf("%d %d", &a, &b);
+	printf("%d * %d = %d\n", a, b, a * b);
+	printf("%d / %d = %d\n", a, b, a / b);*/
+
+	//문제7    double은 %lf로 float는 %f로 한다
+	/*double a, b;
+	char ch;
+	scanf("%lf %lf %c", &a, &b, &ch);
+	printf("\n%.2f\n%.2f\n%c\n", a, b, ch);*/
+
+
+	//scanf는 공백이있으면 그앞까지만 입력됨 공백 포함할려면gets 을쓴다.
+
+	//문제8
+	/*int a=10, b=20, c=30;
+	printf("%d + %d = %d", a, b, c);*/
+
+	//문제9
+	/*double a = 80.5, b = 22.34;
+	printf("%10.2f%10.2f%10.2f\n", a, b, a + b);*/
+
+	//문제10
+	/*int a = 50;
+	float b = 100.12;
+	printf("%.2f * %d = %.f", b, a, b * a);*/
+	
+	//문제11
+	/*int a, b, c;
+	scanf("%d %d %d", &a, &b, &c);
+	printf("sum = %d\n", a + b + c);
+	printf("avg = %d\n", (a + b + c) / 3);*/
+
+	//문제12
+	/*double yard,a=91.44;
+	printf("yard?");
+	scanf("%lf",&yard);
+	printf("%.1lfyard = %.1lfcm\n",yard, a * yard);
+
+	double yard;
+	printf("yard?");
+	scanf("%lf", &yard);
+	printf("%.1lfyard = %.1lfcm\n", yard, 91.44* yard);*/
+  
+  return 0;
+}
