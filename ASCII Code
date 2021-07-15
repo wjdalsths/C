@@ -1,0 +1,30 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //문제9
+	//printf("a:%d A:%d\n", 'a', 'A');
+	//printf("b:%d B:%d\n", 'b', 'B');
+	//printf("z:%d Z:%d\n", 'z', 'Z');
+
+	//char ch;
+	//printf("input alphabet >>");
+	//scanf("%c", &ch);
+	//printf("%c\n", (ch >= 'a' && ch <= 'z') ? (ch - 32) : ch);
+	//			//('a'<=ch&&ch<='z')
+
+	//문제10
+	/*int x;
+	scanf("%d", &x);
+	(x < 0) ? printf("음수\n") : printf("양수\n");*/
+
+	//문제11
+	//int a, b, c, max;
+	//printf("input three numbers >>");
+	//scanf("%d%d%d",&a,&b,&c);
+	//max = (a >= b) ? a : b;
+	//max = (max >= c) ? max : c;
+	////printf("%d", (a > b && a > c) ? a : (b > c) ? b : c);
+	//printf("%d", max);
+  return 0;
+}
