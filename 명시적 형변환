@@ -1,0 +1,15 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+//명시적 형변환 및 결과비교
+	//int a = 29, b = 7, c;
+	//double x = 5.3, y,z;
+	//y = (a / b) * x; //목시적형변환
+	//z = ((double)a / (double)b) * x; //명시적형변환
+	//printf("y=%f,z=%f\n", y, z);
+	//y = (a / b) * b;
+	//z = (a / (int)b) * b;
+	//printf("y = %f, z = %f\n", y, z);
+  return 0;
+}
