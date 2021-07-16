@@ -1,0 +1,15 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //목시적 형변환 및 결과 비교
+	/*int a = 29, b = 7, c;
+	double x = 5.3, y;
+	c = (a / b) * x;
+	y = (a / b) * x;
+	printf("c=%d, y=%f\n", c, y);
+	c = (a / b) * b;
+	y = (a / b) * b;
+	printf("c=%d, y=%f\n", c, y);*/
+  return 0;
+}
