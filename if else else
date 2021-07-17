@@ -1,0 +1,29 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //문제6
+	/*int a, b;
+	printf("주사위를 던진결과>>");
+	scanf("%d %d", &a, &b);
+	if (a >= 4 && b >= 4)
+		printf("이겼습니다");
+	else if (a < 4 && b >= 4)
+		printf("비겼습니다");
+	else if (a >= 4 && b < 4)
+		printf("비겼습니다");
+	else
+		printf("졌습니다");*/
+	
+	//문제7
+	/*int a, b, c;
+	printf("세 수 입력 >>");
+	scanf("%d%d%d", &a, &b, &c);
+	if (a > b && a>c)
+		printf("%d", a);
+	else if (b > a && b>c)
+		printf("%d", b);
+	else
+		printf("%d", c);*/
+  return 0;
+}
