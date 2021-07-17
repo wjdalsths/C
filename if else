@@ -1,0 +1,22 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //문제3 if-else
+	/*int a;
+	printf("점수입력>>");
+	scanf("%d", &a);
+	if (a > 80)
+		printf("합격입니다.");
+	else
+		printf("불합격입니다.");*/
+	
+	//문제4 if-else
+	/*int age;
+	scanf("%d", &age);
+	if (age >= 20)
+		printf("adult");
+	else
+		printf("%d years later", 20 - age);*/
+  return 0;
+}
