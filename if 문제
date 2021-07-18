@@ -1,0 +1,110 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //문제1
+	/*int num;
+	scanf("%d", &num);
+	printf("%d\n", num);
+	if (num > 10)
+		printf("10보다 큰수입력");*/
+
+	//문제2
+	/*int a, b, c;
+	scanf("%d%d", &a, &b);
+	if (a < b)
+	{
+		c = b;
+		b = a;
+		a = c;
+	}printf("큰수:%d, 작은수:%d", a, b);*/
+	
+	//문제2-1
+	/*int num;
+	scanf("%d", &num);
+	if (num < 0)
+	{
+		num=num * -1;
+	}
+		printf("%d", num);*/
+
+	//문제2-2
+	/*char ch;
+	scanf("%c", &ch);
+	if (ch >= 'a' && ch <= 'z')
+		ch = ch - 32;
+	printf("%c", ch);*/
+
+	//문제3 
+	/*int a;
+	printf("점수입력>>");
+	scanf("%d", &a);
+	if (a >= 80)
+		printf("합격입니다.");
+	else
+		printf("불합격입니다.");*/
+
+	//문제4
+	/*int age;
+	scanf("%d", &age);
+	if (age >= 20)
+		printf("adult");
+	else
+		printf("%d years later", 20 - age);*/
+
+	//문제4-1
+	/*int num;
+	scanf("%d", &num);
+	if ((num % 2) == 1)
+		printf("입력된 정수는 홀수입니다");
+	else
+		printf("입력된 정수는 짝수입니다");*/
+
+	//문제4-2
+	/*int a, b;
+	scanf("%d%d", &a, &b);
+	if (a > b)
+		printf("%d", a - b);
+	else
+		printf("%d", b - a);*/
+	
+	//문제5
+	//int a;
+	//printf("점수입력>");
+	//scanf("%d", &a);
+	//if (a >= 90)
+	//	printf("수");
+	//else if (a >= 80)
+	//	printf("우");
+	//else if (a >= 70)
+	//	printf("미");
+	//else if (a >= 60)
+	//	printf("양");
+	//else if (a < 60)     //else printf("가")
+	//	printf("가");
+
+	//문제6
+	/*int a, b;
+	printf("주사위를 던진결과>>");
+	scanf("%d %d", &a, &b);
+	if (a >= 4 && b >= 4)
+		printf("이겼습니다");
+	else if (a < 4 && b >= 4)
+		printf("비겼습니다");
+	else if (a >= 4 && b < 4)
+		printf("비겼습니다");
+	else
+		printf("졌습니다");*/
+	
+	//문제7
+	/*int a, b, c;
+	printf("세 수 입력 >>");
+	scanf("%d%d%d", &a, &b, &c);
+	if (a > b && a>c)
+		printf("%d", a);
+	else if (b > a && b>c)
+			printf("%d", b);
+	else
+			printf("%d", c);*/
+  return 0;
+}
