@@ -1,0 +1,78 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int a, b,d;
+	char c;
+	printf("수식을 입력하시오(예 2 + 5)");
+	scanf("%d %c %d", &a, &c, &b);
+	if (c == '+')
+	{
+		d = a + b;
+		printf("%d %c %d = %d", a, c, b, d);
+	}
+	else if (c == '-')
+	{
+		d = a - b;
+		printf("%d %c %d = %d", a, c, b, d);
+	}
+	else if (c == '*')
+	{
+		d = a * b;
+		printf("%d %c %d = %d", a, c, b, d);
+	}
+	else if (c=='/')
+	{
+		d = a / b;
+		printf("%d %c %d = %d", a, c, b, d);
+	}
+	else
+	{
+		d = a % b;
+		printf("%d %c %d = %d", a, c, b, d);
+	}*/
+  
+  /*int a, b;
+	printf("키를 입력하시오(cm)");
+	scanf(" %d", &a);
+	printf("나이를 입력하시오");
+	scanf("%d", &b);
+	if (a >= 140 && b >= 10)
+		printf("타도 좋습니다");
+	else
+		printf("죄송합니다");*/
+    
+    /*int time, age;
+	printf("현재시간을 입력하세요(예 06시)");
+	scanf(" %d", &time);
+	printf("나이를 입력하세요");
+	scanf("%d", &age);
+	if (time <= 17 && (age >= 65 || (age >= 3 && age <= 12)))
+		printf("25000원 입니다");
+	else if (time<= 17 && (age > 12 && age < 65))
+		printf("34000원 입니다");
+	else
+		printf("10000원 입니다");*/
+	/*int time, age, fee;
+	scanf("%d %d", &time, &age);
+	if (time < 17) {
+		if (age < 3)
+			fee = 0;
+		else if (age <= 12 || age >= 65)
+			fee = 25000;
+		else
+			fee = 34000;
+	}
+	else {
+		if (age < 3)
+			fee = 0;
+		else
+			fee = 10000;
+		printf("요금은 %d원입니다", fee);
+	}*/
+  
+  return 0;
+}
