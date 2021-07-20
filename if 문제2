@@ -1,0 +1,62 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  //문제9
+	/*int x, y;
+	printf("좌표(x y)");
+	scanf("%d %d", &x, &y);
+	if (x > 0 && y > 0)
+		printf("1사분면");
+	else if (x > 0 && y < 0)
+		printf("4사분면");
+	else if (x < 0 && y>0)
+		printf("2사분면");
+	else if (x < 0 && y < 0)
+		printf("3사분면");*/
+
+
+	//문제10
+	/*char ch;	
+
+	printf("문자를 입력하시오:");
+	scanf("%c", &ch);
+	switch (ch)
+	{
+	case 'R':
+	case 'r':
+		printf("Ractangle\n"); break;
+	case 'T':
+	case 't':
+		printf("Triangle"); break;
+	case 'C':
+	case 'c':
+		printf("Circle"); break;
+	default:
+		printf("Unknown");
+	}*/
+	
+	//문제11
+	/*int month, days;
+	int year;
+	scnaf("%d", &month);
+	switch (month)
+	{
+	case 2:
+		printf("year>");
+		scanf("%d", &year);
+		if (year % 4 == 0) || (year % 400 == 0 && year % 100 != 0)
+			days = 29;
+		else
+			days = 28;
+		break;
+	case 4: case 6: case 9: case 11;
+
+	default:
+		break;
+	}*/
+  return 0;
+}
