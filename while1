@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  //문제3  단 입력받아 구구단 출력
+	/*int a, num = 1;
+	int res;
+	scanf("%d", &a);
+	while (num<10)
+	{
+		res = a * num;
+		printf("%d * %d = %d\n",a,num, res);
+		num += 1;
+	}*/
+	
+	//문제4  정수를 입력받아 화면에 출력(0입력> 종료)
+	/*int answer = 1;
+	while (answer!=0)
+	{
+		scanf("%d", &answer);
+		printf("%d 입력\n", answer);
+	}*/
+
+	//문제5  1~100까지 합 출력
+	/*int num = 1;
+	int sum=0;
+	while (num<=100)
+	{
+		sum += num;
+		num += 1;
+	}
+	printf("%d", sum);*/
+
+	//문제6  1~100까지 3의 배수 합 출력
+	/*int num = 0, res = 0;
+	while (num < 100) {
+		num += 1;
+		if (num % 3 == 0) {
+			res += num;
+		}
+	}
+	printf("%d", res);*/
+  return 0;
+}
