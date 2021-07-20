@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  //문제1  1부터 10까지 출력
+	/*int a=0;
+	while (a<10)
+	{
+		a += 1;
+		printf("%d\n", a);
+	}*/
+
+	//문제1-1  1부터 입력받은 숫자까지 출력
+	/*int num = 0;	
+	int a;
+	scanf("%d", &a);
+	while (num<a)
+	{
+		num += 1;
+		printf("%d\n", num);
+	}*/
+
+	//책 p.104
+	/*int answer = 1;
+	while (answer!=0)
+	{
+		scanf("%d", &answer);
+		printf("%d 입력\n", answer);
+	}*/
+
+	//문제2  (10!) 팩토리얼 출력
+	/*int num = 1;
+	int res = 1;
+	while (num<=10)
+	{
+		res = res * num;
+		num += 1;
+	}
+	printf("%d", res);*/
+  return 0;
+}
