@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int a, b, temp, big, small, gcm, lcm;
+	printf("두수입력 >>");
+	scanf("%d %d", &a, &b);
+	if (a>b)
+	{
+		big = a;
+		small = b;
+	}
+	else
+	{
+		big = b;
+		small = a;
+	}
+	temp = big % small;
+	while (temp!=0)
+	{
+			big = small;
+			small = temp;
+			temp = big % small;	
+	}
+	gcm = small;
+	lcm = (a * b) / gcm;
+	printf("%d %d", gcm, lcm);*/
+  return 0;
+}
