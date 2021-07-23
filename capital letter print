@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  
+	//엔터를 누를 때까지 문자열을 읽어서 소문자이면 대문자로 바꾸고 기타문자는 그대로 출력
+	/*char ch;
+	printf("input char >> ");
+	while (1)
+	{
+		ch=getchar();
+		if (ch == '\n')
+			break;
+		if (ch >= 'a' && ch <= 'z')
+			ch -= 32;
+		printf("%c", ch);
+	}
+	char ch;
+	printf("input char >> ");
+	while ((ch=getchar()) !='\n')
+	{
+		if (ch >= 'a' && ch <= 'z')
+		ch -= 32;
+		printf("%c", ch);
+	}*/
+  return 0;
+}
