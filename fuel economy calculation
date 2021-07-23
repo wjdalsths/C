@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  자동차 연비 계산
+	/*int a, b, c;
+	int d;
+	char an = 'y';
+	while (an == 'y')
+	{
+
+		printf("주입한 연료");
+		scanf("%d", &a);
+		printf("주행한거리");
+		scanf("%d", &b);
+		d = b / a;
+		printf("1L로 갈수있는 거리는%d\n", d);
+		printf("다시 계산하겠습니까? y or n\n");
+		scanf(" %c", &an);
+	}*/
+  return 0;
+}
