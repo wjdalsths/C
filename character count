@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*char ch;
+	int cnt = 0;
+	printf("input char >> ");
+		while ((ch = getchar()) != '\n')
+		{
+			if (ch == 'a')
+				cnt++;
+
+		}
+	printf("%d", cnt);*/
+  return 0;
+}
