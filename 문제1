@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  //1~100까지 합 출력
+	/*int num, sum;
+	num = 1;
+	sum = 0;
+	while (num<=100)
+	{
+		sum = sum + num;
+		num++;
+	}
+	printf("%d", sum);*/
+	
+  자동차 연비 계산 
+	/*double a, b;
+	char ch='y';
+	while (1)
+	{
+		printf("주입한 연료의 양>");
+		scanf(" %lf", &a);
+		printf("주행거리 >");
+		scanf("%lf", &b);
+		printf("1L로 주행할수있는 거리는> %lf\n", b / a);
+		printf("계속>y 끝>n");
+		scanf(" %c", &ch); //%c 앞 엔터 처리 주의
+		if (ch == 'n' || ch == 'N')
+			break;
+	}*/
+  return 0;
+}
