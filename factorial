@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  팩토리얼 출력 (10!)
+	/*int num=1, f=1;
+	do
+	{	
+		f = f * num;
+		printf("%d\n", f);
+		num++;
+	} while (num<=10);*/
+  return 0;
+}
