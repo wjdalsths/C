@@ -1,0 +1,88 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int x = 5, y = 10;
+	int z = x + y;
+	printf("%d", z);*/
+
+	/*int A = 2, B = 3;
+	printf("%d", (A+B)*2);*/
+
+	/*int x = 1, y = 2;
+	double z = 1.5;
+	printf("%d\n", x);
+	printf("%.2f\n", x + y);
+	printf("%d\n",x + y + z);
+	printf("%d\n", 2x);
+	printf("%d\n",2 * x);
+	printf("%d\n", 2.0 * x);
+	printf("%.2f\n",x + 1.0);
+	printf("%.2f\n", x - 1.0);
+	printf("%.2f\n", x - 1);
+	printf("%d\n", z - 0.5);
+	printf("%.2f\n", xz);
+	printf("%d", x * z);*/
+
+	/*int a = 1, b = 2, c = 3;
+	printf("%d\n", (b + c) * 2);
+	printf("%d\n", ((b+c)*2)*((b + c) * 2));
+	printf("%d", (((b + c) * 2) * ((b + c) * 2)) * ((b + c) * 2));*/
+
+	/*int a = 3, b = 5, c = 7;
+	a = b = c;
+	printf("%d %d %d", a, b, c);*/
+
+	/*int a = 3, b = 5, c = 7;
+	b = b + 1;
+	a = a + b;
+	c = c + 1 + a;
+	printf("%d %d %d", a, b, c);*/
+
+	/*int a = 1, b = 2, c = 3;
+	a += b;
+	b += c;
+	c++; c++;
+	printf("%d %d %d", a, b, c);*/
+
+	/*int a = 2, b = 4;
+	double c = 1.6;
+	b += a;
+	double d = b / c;
+	c = d++ + c;
+	printf("%d %d %f %f", a, b, c, d);*/
+
+	/*int a = 2; int b = 5;
+	printf("%d\n", b - a);
+	a++; b++;
+	printf("%d\n", --b);
+	b= b + b++;
+	printf("%d",b);*/
+
+	/*int a = 1, b = 2, c = 3;
+	a += b++ + c;
+	b += ++b + c;
+	c += c++ + ++c;
+	printf("%d %d %d", a, b, c);*/
+
+	/*int a = 1;
+	printf("%d\n", a++);
+	printf("%d\n", a + (++a));
+	printf("%d\n", a++ + ++a * a);*/
+
+	//int a = 1;
+	///*int b = ++a * ++a;
+	//int c = ++a + a;*/
+	//int b = ++a + ++a;
+	//int c = b++ + ++a;
+	//printf("%d", b+c);
+
+	/*int a = 1, b = 2;
+	a += b += 3;
+	printf("%d %d\n", a, b);
+	a *= a++ - a++ * b;
+	printf("%d",a + b);*/
+  return 0;
+}
