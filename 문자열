@@ -1,0 +1,68 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*char x = 'k', y = 'g';
+	printf("%c %c %d %d", x, y, x, y);*/
+
+	/*char a = 'a', b = 'b', c = 'c';
+	printf("%d", a + b + c);*/
+
+	/*char a = 'A';
+	printf("%d\n", a++);
+	printf("%c\n", ++a);
+	printf("%c\n", a + 32);*/
+
+	/*char a = 'A';
+	printf("%d %c %d %c", a++, ++a, a++, a);*/
+
+	//char str[12] = "strawberry";
+	/*printf("%s\n", str);
+	for (int i = 0; i < 12; i++)
+		printf("%c", str[i]);*/
+	/*for (int i = 0; i < 12; i++) {
+		for (int j = i; str[j]!='\0'; j++) {
+			printf("%c", str[j]);
+		}printf("\n");
+	}*/
+
+	/*char *str1 = "BITCODING";
+	char str2[10] = "HELLO";
+	printf("%s %p\n", str1, str1);
+	printf("%s %p\n", str2, str2);*/
+
+	/*char str1[] = "BITCODING";
+	char* p = strchr(str1,'B');
+	printf("%d\n", strlen(str1));
+	printf("%d %d", p - str1, strchr(str1, 'l')-str1);
+
+	char* str2 = "ABCDEFG";
+	char* s = strstr(str2, "CG");
+	printf("%s %d %d\n", s, s);
+
+	char* t = strstr(str2, "DE");
+	printf("%s %d %d\n", t, t, t - str2);*/
+	//인덱스를 알고 싶다면 str2를 빼야한다.
+
+	/*char str1[] = "bac";
+	char str2[] = "abc";
+	char str3[] = "bad";
+	char str4[] = "ABC";
+	printf("%d\n", strcmp(str1, str2));
+	printf("%d\n", strncmp(str1, str3, 2));
+	printf("%d %d", strcmp(str2, str4), _stricmp(str2, str4));*/
+
+	/*char str1[100] = "melon";
+	char str2[100] = "melody";
+	char str3[100] = "music";
+	printf("%d\n", strspn(str1, str2));
+	printf("%s\n", strcat(str2, str3));
+	printf("%s\n", str2);
+	printf("%s %s\n", strcpy(str2, str3), str2);*/
+
+	/*char nation[6] = "Korea";
+	printf("%s", nation);*/
+  return 0;
+}
