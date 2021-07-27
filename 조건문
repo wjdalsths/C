@@ -1,0 +1,84 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int n;
+	scanf("%d", &n);
+	if (n % 2 == 0)
+		printf("even number");
+	else
+		printf("odd number");*/
+
+	/*int n;
+	scanf("%d", &n);
+	n = n / 10000;
+	if (n > 18) {
+		if (100 - n + 18 >= 65)
+			printf("old");
+	}*/
+	
+	//112
+	
+	/*int a, b;
+	scanf("%d %d", &a, &b);
+	if (a > b) a++;
+	else if (a == b)b += a;*/
+
+	/*char a;
+	scanf("%c", &a);
+	if (a == 'A' || a == 'B')
+		printf("참 잘했습니다");
+	else if (a == 'C' || a == 'D')
+		printf("좀 더 노력하세요");
+	else
+		printf("다음 학기에 다시 수강하세요");*/
+
+	/*int age; char y;
+	scanf("%d", &age);
+	if (age >= 12)
+		printf("통과");
+	else {
+		printf("부모님과 동행? y,n ");
+		scanf(" %c", &y);
+		if (y == 'y')
+			printf("통과");
+		else
+			printf("거절");
+	}*/
+
+	/*int a, b,t;
+	if (b > a)
+	{
+		t = a;
+		a = b;
+		b = t;
+	}
+	printf("%d", a - b);*/
+
+	/*int n, n1;
+	char a;
+	scanf("%d %c %d", &n, &a, &n1);
+	if (a == '*')
+		printf("%d", n * n1);
+	else if (a == '+')
+		printf("%d", n + n1);
+	else if (a == '-')
+		printf("%d", n - n1);
+	else
+		printf("%d", n / n1);*/
+
+	/*int n, n1;
+	char a;
+	scanf("%d %c %d", &n, &a, &n1);
+	switch (a)
+	{
+	case'+':printf("%d", n + n1); break;
+	case'-':printf("%d", n - n1); break;
+	case'*':printf("%d", n * n1); break;
+	case'/':printf("%d", n / n1); break;
+	default:printf("연산자가 잘못됨");break;
+	}*/
+  return 0;
+}
