@@ -1,0 +1,78 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*for (int i = 0; i < 3; i++) {
+		for (int j = 0; j <= i; j++)
+		{
+			printf("*");
+		}printf("\n");
+	}
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j <2-i; j++)
+			printf("*");
+		printf("\n");
+	}*/
+	
+	/*for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; j < 3 - i; j++)
+				printf("*");
+			printf("\n");
+		}
+	for (int i = 1; i < 3; i++) {
+		for (int j = 0; j <= i; j++)
+		{
+			printf("*");
+		}printf("\n");
+	}*/
+	
+	/*float fNum = 3.14;
+	printf("%d %d\n", (int)fNum, fNum);
+	char s[10];
+	sprintf(s, "%f", fNum);
+	float fNum_2 = atof(s);
+	printf("%s %f", s, fNum_2);*/
+	
+	/*int n,a=20,n1;
+	scanf("%d", &n);
+	n1 = n - 2017;
+	a += n1;
+	printf("%d년 지수의 나이는 %d세입니다",n,a);*/
+
+
+	/*char a[30];
+	gets(a);
+	int n = strlen(a);
+	printf("문장길이는%d입니다", n);*/
+
+
+	/*int num;
+	scanf("%d", &num);
+	num % 3 == 0 && num % 4 != 0 ? printf("1") : printf("0");*/
+
+	/*int num;
+	scanf("%d", &num);
+	printf("%o", 4 * num);*/
+	
+	//printf("\"C:\\Users\\dataset\"");
+
+	/*char str[10] = "ABCDEFGH";
+	printf("%c\n", str[5]);
+	printf("%s", str[6]);*/
+	
+	/*int n;
+	scanf("%d", &n);
+	printf("%c %c", 64 + n, 96 + n);*/
+	
+	/*int n,a,b;
+	scanf("%d", &n);
+	a = n / 10000;
+	n = n % 100;
+	b = n / 10;
+	printf("%d", a* b);*/
+  return 0;
+}
