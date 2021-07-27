@@ -1,0 +1,201 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int i = 2;
+	while (i<=20)
+	{
+		printf("%d ", i);
+		i *= 2;
+	}*/
+
+	//134
+
+	/*char c[20];
+	gets(c);
+	int num1, num2;
+	scanf("%d %d", &num1, &num2);
+	printf("%s에서 구간[%d,%d]의 부분 문자열은",c,num1,num2);
+	for (int i = num1; i <= num2; i++) {
+		printf("%c", c[i]);
+	}*/
+
+	/*char a;
+	while (1)
+	{
+		printf("Enter the alphabet:");
+		scanf(" %c", &a);
+		
+		if (a == 'q')
+		{
+			printf("finish");
+			break;
+		}
+	}*/
+
+	/*int fn, sn,t;
+	scanf("%d %d", &fn, &sn);
+	if (fn > sn) {
+		t = fn;
+		fn = sn;
+		sn = t;
+	}
+	while (fn<=sn)
+	{
+		if (fn % 5 == 0)
+			printf("%d ", fn);
+		fn++;
+	}*/
+
+	/*int c=0;
+	for (int i = 1; i <=10000; i++)
+	{
+		if (i % 7 == 0)
+			continue;
+		c++;
+	}printf("%d", c);*/
+
+	/*int n,s=0;
+	scanf("%d", &n);
+	for (int i = 1; i <= n; i++) {
+		s += i;
+	}printf("%d", s);*/
+	
+	/*int n, i, s=0;
+	scanf("%d", &n);
+	for (i = 2; i < n; i++)
+	{
+		if (n % i == 0)
+			s = 1;
+	}
+	if (s)
+		printf("소수x");
+	else
+		printf("소수");*/
+	
+	/*int n, n1=0,s=0;
+	scanf("%d", &n);
+	for (int i = 0; i < 6; i++) {
+		n1 = n % 10;
+		n = n / 10;
+		s += n1;
+	}printf("%d", s);*/
+
+	/*char m[20];
+	gets(m);
+	for (int i = 0; m[i] != NULL; i++) {
+		for (int j = 0; j <=i; j++) {
+			printf("%c", m[j]);
+		}printf("\n");
+	}*/
+	
+	/*for (int i = 0; i < 11; i++) {
+		for (int j = 0; j < 10 - i; j++) {
+			printf(" ");
+		}
+		for (int j = 0; j <= i; j++) {
+			printf("*");
+		}printf("\n");
+	}*/
+	
+	/*for (int i = 0; i < 6; i++) {
+		for (int j = 0; j <=2 * i; j++) {
+			printf("*");
+		}printf("\n");
+	}
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 11; j++)
+			printf("*");
+		printf("\n");
+	}*/
+		
+	/*for (int i = 0; i < 11; i++) {
+		for (int j = 0; j < 10 - i; j++) {
+			printf(" ");
+		}
+		for (int j = 0; j < 2 * i + 1; j++) {
+			printf("*");
+		}printf("\n");
+	}*/
+
+	/*for (int i = 0; i < 6; i++) {
+		for (int j = 0; j < 5 - i; j++) {
+			printf(" ");
+		}
+		for (int j = 0; j < 2 * i + 1; j++) {
+			printf("*");
+		}printf("\n");
+	}
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j <= i; j++) {
+			printf(" ");
+		}
+		for (int j = 0; j < 11-((i+1)*2); j++) {
+			printf("*");
+		}printf("\n");
+	}*/
+
+	/*for (int i = 0; i <=10; i++) {
+		for (int j = 0; j <= 10; j++) {
+			if (3 * j + 2 * i == 10) {
+				printf("x=%d y=%d\n", j, i);
+			}
+		}
+	}*/
+	
+	/*for (int a = 0; a <= 100; a++) {
+		for (int b = 0; b <= 100; b++) {
+			for (int c = 0; c <= 100; c++) {
+				if (a != b != c)
+				{
+					if (a + b + c == 100)
+						printf("a=%d b=%d c=%d\n", a, b, c);
+				}
+			}
+		}
+	}*/
+
+	/*int num = 5;
+	if (num == 1)goto ONE;
+	else if (num == 2)goto TWO;
+	else goto FINISH;
+
+	ONE:printf("1");
+		goto FINISH;
+	TWO:printf("2");
+		goto FINISH;
+	FINISH:printf("FINISH");*/
+
+
+	/*int n,n1;
+	scanf("%d", &n);
+	n1 = n / 10;
+	n = n % 10;
+	if (n == n1)
+		printf("십의 자리와 일의 자리가 같다");
+	else
+		printf("십의 자리와 일의 자리가 다르다");*/
+	
+	/*int p;
+	scanf("%d", &p);
+	if (p >= 200000)
+		printf("지불금액=%f", (float)p * 0.85);
+	else if (p >=50000)
+		printf("지불금액=%f", (float)p * 0.9);
+	else if (p >=10000)
+		printf("지불금액=%f", (float)p * 0.95);
+	else
+		printf("지불금액=%d", p);*/
+	
+	/*int n,n1;
+	scanf("%d", &n);
+	n1 = n / 10;
+	n = n % 10;
+	if (n == 9 || n == 6 || n == 3)
+		printf("짝");
+	if (n1 == 9 || n1 == 6 || n1 == 3)
+		printf("짝");*/
+  return 0;
+}
