@@ -1,0 +1,77 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+void wordlist();
+int main()
+{
+  /*int score;
+	scanf("%d", &score);
+	printf("%c", grede(score));*/
+	
+	/*int n;
+	scanf("%d", &n);
+	printf("%d", fun(n));*/
+
+	/*char a[50];
+	gets(a);
+	wordlist(&a);*/
+
+	/*char pass[20];
+	while (1)
+	{
+		printf("암호 입력>> ");
+		gets(pass);
+		int ncnt=0,acnt=0,Acnt=0;
+		for (int i = 0; pass[i] != NULL; i++) {
+			if (pass[i] >= 97 && pass[i] <= 122) 
+				acnt++;
+			if (pass[i] >= 65 && pass[i] <= 90)
+				Acnt++;
+			if (pass[i] >= '0' && pass[i]<'10')
+				ncnt++;
+		}
+		if (acnt == 0 || Acnt == 0 || ncnt == 0)
+			printf("암호를 다시 만들라\n\n");
+		else if (acnt + Acnt + ncnt < 6)
+			printf("암호를 다시 만들라\n\n");
+		else
+		{
+			printf("암호: %s", pass);
+			break;
+		}
+	}*/
+  return 0;
+}
+void wordlist(char *str) {
+	for (int i = 0;str[i]!=NULL; i++) {
+		if (str[i] >= 97 && str[i] <= 122)
+			str[i] -= 32;
+	}
+	for (int i = 0; str[i] != NULL; i++) {
+		if (str[i] == ' ')
+		{
+			printf("\n");
+			i++;
+		}
+		printf("%c", str[i]);
+	}
+}
+int fun(int n) {
+	int s=0;
+	for (int i = 1; i <=n - 1; i++)
+	{
+		s += i % 5;
+	}return s;
+}
+int grede(int score) {
+	if (score >= 90 && score <= 100)
+		return 'A';
+	else if (score >= 80 && score < 90)
+		return 'B';
+	else if (score >= 70 && score < 80)
+		return 'C';
+	else if (score >= 60 && score < 70)
+		return'D';
+	else
+		return 'F';
+}
