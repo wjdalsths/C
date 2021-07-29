@@ -1,0 +1,48 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+  /*int n0=0,n1=1;
+	srand((unsigned)time(NULL));
+	for (int i = 1; i < 100; i++) {
+		if (rand() % 2 == 0)
+			n0++;
+		else
+			n1++;
+	}printf("앞면: %d, 뒷면: %d", n0, n1);*/
+	
+	/*int a,n;
+	srand((unsigned)time(NULL));
+	printf("0가위, 1바위, 2보 >");
+	scanf("%d", &n);
+	a = rand() % 3;
+	if (a == n)
+		printf("무승부\n");
+	else if (n - a == 1||n-a==-2)
+		printf("사람 승\n");
+	else
+		printf("컴 승\n");
+	printf("사람:%d 컴:%d", n, a);*/
+
+	/*int n, a, c=0;
+	srand((unsigned)time(NULL));
+	a = rand() % 100;
+	while (1) {
+		printf("숫자 >>");
+		scanf("%d", &n);
+		c++;
+		if (n == a) {
+			printf("정답\n");
+			break;
+		}
+		else if (n > a)
+			printf("DOWN\n");
+		else if (n < a)
+			printf("UP\n");
+	}printf("%d\n", a);
+	printf("시도 횟수: %d", c);*/
+  
+  return 0;
+}
