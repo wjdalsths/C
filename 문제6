@@ -1,0 +1,91 @@
+#include<stdio.h>
+#include<stdlib.h>
+#pragma warning(disable:4996)
+
+int main()
+{
+	/*int num;
+	int sum = 0, cnt = 0;
+	double avg;
+	while (1)
+	{
+		scanf("%d", &num);
+		if (num == 0)
+			break;
+		if (num % 2 == 0)
+			continue;
+		sum += num;
+		cnt++;
+	}
+	avg = sum / cnt;
+	printf("홀수 합 %d", sum);
+	printf("홀수 평균 %.2f", avg);*/
+
+	/*int num;
+	printf("정수를 입력하시오(10000보다 작은)");
+	scanf("%d", &num);
+
+	printf("천의자리: %d\n", (num / 1000) % 10);
+	printf("백의자리: %d\n", (num / 100) % 10);
+	printf("십의자리: %d\n", (num / 10) % 10);
+	printf("일의자리: %d", num % 10);*/
+
+	/*int answer, guess, cnt = 0;
+	srand((unsigned)time(NULL));
+	answer = rand() % 100 + 1;
+	
+	do 
+	{
+	scanf("%d", &guess);
+	cnt++;
+	if (guess > answer)
+		printf("down\n");
+	if (answer > guess)
+		printf("up\n");
+	
+	}while (guess != answer);
+	printf("정답입니다\n");
+	printf("시도횟수: %d", cnt);*/
+	
+  
+	/*int num, digit;
+	scanf("%d", &num);
+	do
+	{
+		digit = num % 10;
+		num /= 10;
+		printf("%d", digit);
+
+	} while (num!=0);*/
+	
+	//for(초기값;조건식;증강)
+	/*int i,an;
+	for (i = 1; i <= 10; i++)
+		printf("%d\n", i);
+
+	for ( i = 10; i >=1; i--)
+		printf("%d\n", i);*/
+	
+	/*scanf("%d", &an);
+	for ( i = 1; i <=an; i++)
+		printf("%d\n", i); */
+	
+	//3의 배수의 합
+	/*int i,sum=0;
+	for (i = 1; i <= 100; i++) {
+		if (i % 3)
+			continue;
+		sum += i;
+	}*/
+	
+	//약수구하기
+	/*int i, s;
+	scanf("%d", &i);
+	for (s = 1; s <= i; s++)
+	{
+		if (i % s)
+			continue;
+		printf("%d ", s);
+	}*/
+	return 0;
+}
