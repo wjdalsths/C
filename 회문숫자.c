@@ -2,7 +2,7 @@
 #pragma warning(disable:4996)
 int main()
 {
-	//2.È¸¹®¼ıÀÚ: ¾î´ÀÂÊÀ¸·Î ÀĞµçÁö ¶È°°Àº ¼ö(¿¹:131,2112)
+	//2.íšŒë¬¸ìˆ«ì: ì–´ëŠìª½ìœ¼ë¡œ ì½ë“ ì§€ ë˜‘ê°™ì€ ìˆ˜(ì˜ˆ:131,2112)
 	/*int num, sum=0, r,temp;
 	printf("input number >>");
 	scanf("%d", &num);
@@ -14,11 +14,11 @@ int main()
 		sum = sum*10 + r;
 	}
 	if (temp == sum)
-		printf("È¸¹®¼ıÀÚ");
+		printf("íšŒë¬¸ìˆ«ì");
 	else
-		printf("È¸¹®¼ıÀÚ°¡ ¾Æ´Ï´Ù");*/
+		printf("íšŒë¬¸ìˆ«ìê°€ ì•„ë‹ˆë‹¤");*/
 
-		//3.ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ °Å²Ù·Î Ãâ·Â(¿¹:1234>4321)
+		//3.ì…ë ¥ë°›ì€ ìˆ«ìë¥¼ ê±°ê¾¸ë¡œ ì¶œë ¥(ì˜ˆ:1234>4321)
 		/*int num, r, reverse=0;
 		printf("input number >>");
 		scanf("%d", &num);
@@ -28,6 +28,6 @@ int main()
 			num = num / 10;
 			reverse = reverse * 10 + r;
 		}
-		printf("¹İÀüµÈ ¼ö %d", reverse);*/
-	return 0;
+		printf("ë°˜ì „ëœ ìˆ˜ %d", reverse);*/
+	 
 }
