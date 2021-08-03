@@ -1,0 +1,62 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+/*	*
+    **
+    ***
+    ****
+    *****  */
+	/*int i = 1, j;						
+	while (i <= 5)
+	{
+		j = 1;
+		while (j <= i) {
+			printf("*");
+			j += 1;
+		}
+		printf("\n");
+		i += 1;
+	}*/
+  
+  /*  *
+	   **
+	  ***
+	 ****
+	*****  */
+
+	/*int i, j;
+	for ( i = 0; i < 5; i++) 
+	{
+		for (j = 0; j < 4 - i; j++)
+		{
+			printf(" ");
+		}
+		for (j = 0; j <=i; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}*/
+  
+  /*  *
+	   **
+	  ***
+	 ****
+	*****  */
+
+	/*int i, j;
+	for ( i = 0; i < 5; i++) 
+	{
+		for (j = 0; j < 4 - i; j++)
+		{
+			printf(" ");
+		}
+		for (j = 0; j <=i; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}*/
+  
+}
