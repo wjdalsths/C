@@ -1,0 +1,219 @@
+#include<stdio.h>
+#include <climits>
+#pragma warning(disable:4996)
+
+int recursive(int n) {
+	printf("%d\n", n);
+	if (n < 1)
+		return -1;
+	else
+		return (recursive(n - 3) + 1);
+}
+int main() 
+{
+	//recursive(10)
+	//p.65
+	//printf("%d %d %d %d\n", sizeof(char), sizeof(short), sizeof(int), sizeof(long)),
+	//printf("%d %d", sizeof(float), sizeof(double));
+	
+	//p.65
+	//char num1 = 1, num2 = 2;
+	//printf("%d", sizeof(num1 + num2));
+	
+	//p.66
+	//char mychar;
+	//int count, resultNumber;
+	//double weight;
+	
+	//p.67
+	/*char myBloodType = 'A';
+	int age, schoolNumber;
+	double weight;
+	age = 18; schoolNumber = 12;
+	weight = 173.4;*/
+
+	//p.68 오버플로우
+	//int i = 2147483647;
+	//printf("%d", i + 1);
+
+	//p.69 
+	//printf("char의 최솟값:%6d, char의 최댓값:%6d\n", CHAR_MIN, CHAR_MAX);
+	//printf("short의 최솟값:%6d,short의 최댓값:%6d\n", SHRT_MIN, SHRT_MAX);
+	//char cA = 128, cB = -129;
+	//short sA = 32768, sB = -32769;
+	//printf("%d %d\n", cA, cB);
+	//printf("%d %d\n", sA, sB);
+
+	//P.70
+	/*int a = 1, b = 2;
+	int temp;
+	temp = a;
+	a = b;
+	b = temp;*/
+
+	/*int a = 1, b = 2;
+	a = a + b;
+	b = a - b;
+	a = a - b;*/
+
+	//p.71 2번문제
+	/*int a = 1, b = 2, c = 3;
+	int temp;
+	temp = c;
+	c = b;
+	b = a;
+	a = temp;
+	printf("%d %d %d", a, b, c);*/
+
+	//p.74 putchar함수는 문자 1자씩 출력함 (출력문자는''로 묶어줌)여러문써도 첫문자만출력
+	//char c = 'h';
+	//putchar(c);
+	//putchar(105); //아스키코드 i에 해당
+
+	//p.75 puts함수는 실행될때마다 줄바꿈되어 출력(문자열을""로 묶어줌)
+	//puts("hello");
+	//puts("world");
+
+	//p.75 스스로해결하기
+	/*char a = 'h', b = 'e', c = 'l', d = 'o', e = ' ';
+	putchar(a);
+	putchar(b);
+	putchar(c);
+	putchar(c);
+	putchar(d);
+	putchar(e);
+	puts("world");*/
+
+	//p.76
+	//int i = 1;
+	//printf("hello\n");
+	//printf("%d", i);
+
+	//p.77
+	//printf("%s \t", "Good");
+	//printf("%s", "Bye!");
+
+	//p.77 스스로해결하기
+	//printf("이름:%s\n", "고길동");
+	//printf("나이:%d살", 17);
+
+	//p.78 getchar 괄호안은 비워둔다
+	//char c = getchar();
+	//putchar(c);
+	
+	//p.79 gets
+	//char s[100];
+	//gets(s);
+	//puts(s);
+
+	//p.79 scanf
+	/*int i;
+	scanf("%d", &i);
+	printf("%d", i);*/
+
+	//p.80
+	/*int height, weight;
+	printf("키와 몸무게를 입력하세요:");
+	scanf("%d %d", &height, &weight);
+	printf("키는 %dcm이고 몸무게는 %dkg입니다.", height, weight);*/
+
+	//p.80 스스로해결하기
+	/*int a, b, c;
+	printf("3개의 값을 입력하세요:");
+	scanf("%d %d %d", &a, &b, &c);
+	printf("입력한 3개 값의 합은 %d 입니다.", a + b + c);*/
+
+	//p.81 미션 해결하기
+	/*int key;
+	printf("문자를 입력하세요:");
+	char secret = getchar();
+	printf("키 값을 입력하세요:");
+	scanf("%d", &key);
+	printf("입력하신 문자를 암호화한 문자는 %c 입니다.", secret-32+key);*/
+	
+	//p.81 스스로해결하기
+	/*int a;
+	printf("1개의 값을 입력하세요:");
+	scanf("%d", &a);
+	printf("%d는 8진수 %o입니다.\n", a, a);
+	printf("%d는 16진수 %x입니다.\n", a, a);
+	printf("%d는 아스키코드 %c입니다.\n", a, a);*/
+
+	//p.82 수행
+	/*printf("------------------------------------------------------------\n");
+	printf("%s\t %s\t %s\t %s\n", "상품명", "총수량", "재고", "가격");
+	printf("------------------------------------------------------------\n");
+	printf("%5s\t %3d\t %3d\t %7d\n", "G5", 100, 45, 965000);
+	printf("%5s\t %3d\t %3d\t %7d\n", "S7", 200, 145, 985000);
+	printf("%5s\t %3d\t %3d\t %7d\n", "NOTE5", 35, 2, 1105000);
+	printf("------------------------------------------------------------\n");*/
+	//p.83
+	/*char name[100];              
+	int age;
+	char bloodType;
+	puts("이름을 입력하세요");
+	putchar('>');
+	scanf("%s", name);
+	puts("나이를 입력하세요");
+	putchar('>');
+	scanf("%d", &age);
+	puts("혈액형을 입력하세요");
+	putchar('>');
+	scanf("%c",bloodType);
+	printf("%s(%d살,%c형)", name, age, bloodType);*/
+
+	//char name[10], blood[3];
+	//int age;
+	//printf("input name >>");
+	//scanf("%s", name);
+	//printf("input age >>");
+	//scanf("%d", &age);
+	//printf("input your blood type >>");
+	//scanf("%*c%c", &blood);  //공백을 해줌 " %c
+	//printf("%s,%d,%c", name, age, blood);
+	/*printf("name, age, blood\n");
+	scanf("%s %d %s", name, &age, blood);
+	printf("\n%s, %d, %s\n", name, age, blood);*/
+	
+	/*int a = 10, b = 20, c;   스왑
+	c = a;
+	a = b;
+	b = c;
+	printf("%d %d", a, b);*/
+	/*int a = 10, b = 20, c;
+	printf("before:a=%d,b=%d\n", a, b);
+	c = a;
+	a = b;
+	b = c;
+	printf("after:a=%d,b=%d\n", a, b);*/
+
+	/*char a[3];
+	int b[3];
+	printf("%d, %d\n", sizeof(a),sizeof(b));*/
+
+	/*int result = 4 + 3 * 5;      p.86
+	printf("%d", result);*/
+	
+	/*int i = 13, j = 5;           p.87
+	printf("%d %d %d %d %d", i + j, i - j, i* j, i / j, i% j);*/
+
+	/*int i = 13, j = 5;           p.87
+	i = j;
+	printf("%d\n", i);*/
+
+	/*int i = 13, j = 5, temp, a = 10, b = 20, c = 30, d = 40;
+	temp = ++i; printf("%d %d\n", temp, i);
+	temp = ++i; printf("%d %d\n", temp, i);
+	temp = --j; printf("%d %d\n", temp, j);
+	temp = j--; printf("%d %d\n", temp, j);
+	++a; b++; --c; d--;
+	printf("%d %d %d %d", a, b, c, d);*/
+
+	//비트연산자 p.91
+	
+
+
+
+
+	return 0;
+}
