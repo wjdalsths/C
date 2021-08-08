@@ -1,0 +1,39 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+void print_stars() {
+	for (int i = 0; i < 30; i++)
+		printf("*");
+}
+int max(int x, int y)//대소 구분
+{
+	if (x > y)
+		return x;
+	else
+		return y;
+}
+void happyBirthday()
+{
+	printf("생일축하 합니다!\n생일축하 합니다!\n사랑하는 친구의 생일축하 합니다!");
+}
+int main()
+{
+	//함수는 ()를 붙여서 
+	/*print_stars();
+	printf("\nhello world\n");
+	print_stars();*/
+	
+	//printf("%d\n", max(5, 10));
+
+	/*int x, y;
+	printf("두개의 정수를 입력 >>");
+	scanf("%d %d", &x, &y);
+	int num=max(x,y);
+	printf("큰수는: %d", num);*/
+
+	/*happyBirthday();*/
+	
+
+
+
+	return 0;
+}
