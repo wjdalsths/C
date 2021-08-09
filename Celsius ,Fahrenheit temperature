@@ -1,3 +1,24 @@
+void menu()
+{
+	printf("\'c\'섭씨온도에서 화씨온도로 변환\n");
+	printf("\'f\'화씨온도에서 섭씨온도로 변환\n");
+	printf("\'q\'종료\n");
+}
+double f2c(double n)
+{
+	return (n - 32.0) * 5.0 / 9.0;
+}
+double c2f(double n)
+{
+	return 9.0 / 5.0 * n + 32;
+}
+int get_integer()
+{
+	int n;
+	printf("정수를 입력하세요 >>");
+	scanf("%d", &n);
+	return n;
+}
 int main()
 {
 	char ch;
