@@ -1,0 +1,53 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int get_integer()
+{
+	int n;
+	printf("정수를 입력하세요 >>");
+	scanf("%d", &n);
+	return n;
+}
+int add(int x, int y)
+{
+	return x + y;
+}
+int f(int n)
+{
+	int s = 1;
+	for (int i = 1; i <= n; i++)
+	{
+		s *= i;
+	}
+	printf("팩토리얼 값은 : %d ", s);
+}
+int fac(int n)
+{
+	int s = 1;
+	for (int i = 1; i <= n; i++)
+	{
+		s *= i;
+	}
+	return s;
+}
+int main()
+{
+	/*int num=get_integer();
+	printf("입력받은 정수는:%d ", num);*/
+	
+	/*int n = get_integer(),n1=get_integer();
+	printf("\n정수들의 합은: %d",add(n,n1));*/
+	
+	/*int n;
+	printf("알고싶은 팩토리얼 값? >>");
+	scanf("%d", &n);
+	f(n);*/
+
+	int x;
+	printf("f 입력>");
+	scanf("%d", &x);
+	int n = fac(x);
+	printf("%d",n);
+
+
+	return 0;
+}
