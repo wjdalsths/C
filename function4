@@ -1,0 +1,66 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+double sub1(double d);  //함수 원형
+double sub2(double d);  //함수 원형
+int random();
+int main()
+{
+	/*printf("call sub1:%lf", sub1(1.0));*/
+
+
+
+//#define max 45
+//
+//	int i;
+//	srand((unsigned)time(NULL));
+//	for (i = 0; i < 7; i++)
+//	{
+//		printf(" %d ", rand() % max + 1);
+//	}
+
+
+
+	/*int cntf=0, cntb=0;
+	srand((unsigned)time(NULL));
+	for (int i = 0; i < 100; i++)
+	{
+		if (rand() % 2 + 0)
+			cntf++;
+		else
+			cntb++;
+	}
+	printf("앞면 %d\n뒷면 %d", cntf, cntb);*/
+	/*srand((unsigned)time(NULL));
+	int f=0, b=0;
+	for (int i = 0; i < 100; i++)
+	{
+		if (random()==0)
+			f++;
+		else
+			b++;
+	}
+	printf("앞면 %d\n뒷면 %d", f, b);*/
+
+	return 0;
+}
+double sub1(double d)
+{
+	return d;
+}
+double sub2(double d)
+{
+	return d;
+}
+int random()
+{
+	int n = rand() % 2 + 0;
+	if (n == 0)
+		return 0;
+	else
+		return 1;
+}
+/*난수는 랜덤수 rand() 난수 함수 
+0부터 RNAD_MAX까지 난수 생성 
+rand()%값의 개수+시작값 */
