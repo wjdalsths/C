@@ -1,3 +1,5 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
 int is_Prime(int x)
 {
 	int is = 1;
