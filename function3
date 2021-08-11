@@ -1,0 +1,51 @@
+int is_Prime(int x)
+{
+	int is = 1;
+	for (int i = 2; i < x; i++)
+	{
+		if (x % i == 0)
+			is = 0;
+	}
+	return is;
+}
+int is_Prime2(int n)
+{
+	for (int i = 1; i <= n; i++)
+	{
+		if (is_Prime(i))
+			printf("%d\n", i);
+	}
+}
+int get_integer()
+{
+	int n;
+	printf("정수를 입력하세요 >>");
+	scanf("%d", &n);
+	return n;
+}
+int main()
+{
+	
+	/*int n = get_integer();
+	int is=is_Prime(n);
+	if (is)
+		printf("소수");
+	else
+		printf("소수 x");*/
+
+	/*int n;
+	scanf("%d", &n);
+	for (int i = 1; i <= n; i++)
+	{
+		if (is_Prime(i))
+			printf("%d\n", i);
+	}*/
+	
+
+	int n;
+	scanf("%d", &n);
+	is_Prime2(n);
+	
+
+	return 0;
+}
