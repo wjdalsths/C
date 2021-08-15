@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+#define MAX 5
+int main()
+{
+	/*배열 여러개 변수 저장 가능 
+	같은 자료형만 저장
+	int 변수[공간 수]
+	위치는 index[]
+	score[index[3]]
+	score[i]=100 //i는 정수 변수
+	int socre[5]={값,값,값,값,값};
+	값을 입력하지 않으면 0으로 초기화됨
+	int score[]={값,값,값,값,값}; 하면 자동으로 선언 초기화 됨[]안이 값 개수만큼됨
+	*/
+
+	int score[MAX];
+	srand((unsigned)time(NULL));
+	/*score[0] = 10;
+	score[1] = 20;
+	score[2] = 30;
+	score[3] = 40;
+	score[4] = 50;*/
+
+	/*for (int i = 0; i < 5; i++)
+	{
+		printf("score[%d] : %d\n", i, score[i]);
+	}*/
+	
+	//10~50 까지 출력
+	/*for (int i = 0; i < max; i++)
+	{
+		score[i] = (i + 1) * 10;
+		printf("score[%d] : %d\n", i, score[i]);
+	}*/
+
+	//1부터 5번 반복해서 랜덤값 구하기
+	/*for (int i = 0; i < max; i++)
+	{
+		score[i] = rand() % 100 + 1;
+		printf("score[%d] : %d\n", i, score[i]);
+	}*/
+	
+	/*int s=0;
+	for (int i = 0; i < MAX; i++)
+	{
+		printf("%d번째 성적을 입력하세요> ", i+1);
+		scanf("%d", &score[i]);
+		s += score[i];
+	}
+	printf("전체 합계> %d\n", s);*/
+
+	int scores[] = { 1,2,3,4,5,6 };
+	int i, size;
+	size = sizeof(scores) / sizeof(scores[0]);
+//24(int 4바이트*개수6개)  /    4  =6
+	printf("%d\n", size);
+ 	for (i = 0; i < size; i++)
+	{
+		printf("%d", scores[i]);
+	}
+
+	//배열이름은 시작 주소 ex)score
+	//배열 복사	
+	int score1[SIZE];
+	int score2[SIZE];
+	score1 = score2; //잘못된 복사
+
+
+	return 0;
+}
