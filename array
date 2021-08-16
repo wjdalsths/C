@@ -5,16 +5,6 @@
 #define MAX 5
 int main()
 {
-	/*배열 여러개 변수 저장 가능 
-	같은 자료형만 저장
-	int 변수[공간 수]
-	위치는 index[]
-	score[index[3]]
-	score[i]=100 //i는 정수 변수
-	int socre[5]={값,값,값,값,값};
-	값을 입력하지 않으면 0으로 초기화됨
-	int score[]={값,값,값,값,값}; 하면 자동으로 선언 초기화 됨[]안이 값 개수만큼됨
-	*/
 
 	int score[MAX];
 	srand((unsigned)time(NULL));
