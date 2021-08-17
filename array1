@@ -55,4 +55,5 @@ int main()
 		}
 	}
 	printf("짝수중 큰수= %d\n홀수중 작은수= %d", max, min);*/
+	return 0;
 } 
