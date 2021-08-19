@@ -1,0 +1,54 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	//int array[10] = { 3,5,11,7,17,8,19,102,469,119 };
+	/*int i, j,t,s=sizeof(array) / sizeof(int); 
+	for (i = 0; i < s ; i++)
+		for (j = i + 1; j < s; j++)
+			if (array[i] > array[j])
+			{
+				t = array[i];
+				array[i] = array[j];
+				array[j] = t;
+			}*/
+	/*int i, j,t,size=sizeof(array) / sizeof(int),num,start,end,mid;
+	for ( i = 0; i <size ; i++)
+		for (j = 0; j < size - 1; j++)
+			if (array[j] > array[j + 1])
+			{
+				t = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = t;
+			}
+	start = 0;
+	end = size - 1;
+	scanf_s("%d", &num);
+	while (start<=end)
+	{
+		mid = (start + end) / 2;
+		if (num == array[mid]) 
+		{
+			printf("%d방에서 값을 찿음", mid+1);
+			break;
+		}
+		else if (num > array[mid])
+			start = mid + 1;
+		else if (num < array[mid])
+			end = mid - 1;
+	}
+	if (start > end)
+		printf("값을 못찿음");*/
+
+	char arr[4][12]= {"apple", "banana", "pineapple", "mango"};
+	printf("%c\n", arr[3][3]);
+	printf("%s\n", arr[2]);
+	for (int i = 0; i < 10; i++)
+		printf("%c", arr[2][i]);
+	printf("\n");
+	for (int i = 0; i < 4; i++)
+	{
+		printf("%s\n", arr[i]);
+	}
+  return 0;
+}
