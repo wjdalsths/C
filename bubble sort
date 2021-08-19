@@ -1,0 +1,15 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{ 
+  //int array[10] = { 3,5,11,7,17,8,19,102,469,119 };
+  /*int i, j,t,s=sizeof(array) / sizeof(int); 
+	for (i = 0; i < s ; i++)
+		for (j = i + 1; j < s; j++)
+			if (array[i] > array[j])
+			{
+				t = array[i];
+				array[i] = array[j];
+				array[j] = t;
+	    }*/
+}
