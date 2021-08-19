@@ -84,5 +84,5 @@ int main()
 	printf("%d %d\n", a, b);
 	a *= a++ - a++ * b;
 	printf("%d",a + b);*/
-  return 0;
+
 }
