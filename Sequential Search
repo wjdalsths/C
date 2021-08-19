@@ -1,0 +1,18 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	/*int array[10] = { 1,2,3,5,9,11 };
+	int cnt = 0,n;
+	scanf_s("%d", &n);
+	for (int i = 0; i < sizeof(array) / sizeof(int); i++)
+		if (array[i] == n)
+		{
+			printf("값이 있음");
+			cnt = 1;
+			break;
+		}if (cnt == 0)
+		printf("값이 없음");*/
+  
+  return 0;
+}
