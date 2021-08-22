@@ -1,0 +1,41 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+  /*int score[4][4] = { 0, };
+	int i,j;
+	for ( i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 3; j++) {
+			printf("점수 입력> ");
+			scanf("%d", &score[i][j]);
+			score[i][3] = score[i][3] + score[i][j];
+			score[3][j] = score[3][j] + score[i][j];
+			score[3][3] = score[3][3] + score[i][j];
+		}
+	}
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = 0; j < 4; j++)
+			printf("%d ", score[i][j]);
+		printf("\n");
+	}*/
+  
+  /*int a[5] = { 5,1,15,20,25 };
+	int i, j, m;
+	i = ++a[1];
+	j = a[1]++;
+	m = a[i++];
+	printf("%d %d %d\n", i, j, m);
+	for (int x = 0; x < 5; x++)
+		printf("%d ", a[x]);*/
+  
+  /*int test[10] = { 0 };
+	int i;
+	for (i = 0; i < 3; i++)
+		test[3 * i + 1] = i * i;
+	for (i = 0; i < 10; i++)
+		printf("%d ", test[i]);*/
+    
+  return 0;
+}
