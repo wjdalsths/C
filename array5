@@ -1,0 +1,48 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+void f(void);
+//recursive(10)
+int recursive(int n) {
+	printf("%d\n", n);
+	if (n < 1)
+		return -1;
+	else
+		return (recursive(n - 3) + 1);
+}
+int main()
+{
+  /*int test[3][3] = { {1,2,3},{4,5} };
+	int i, j;
+	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			test[i][j] = test[2 - i][2 - j];
+
+	for (i = 0; i < 3; i++) {
+		for (j = 0; j < 3; j++)
+			printf("%d ", test[i][j]);
+		printf("\n");
+	}*/
+	
+	/*#define SIZE 5
+		int i;
+		int grade[SIZE] = { 10,20,30 };
+		for (i = 0; i < SIZE; i++)
+			printf("%d ", grade[i]);*/
+	
+	/*f();
+	f();
+	f();*/
+	
+  
+  /*recursive(10);
+	
+	*/
+}
+void f() 
+{
+	static int x = 0;
+	int y = 0;
+	x++;
+	y++;
+	printf("x = %d, y = %d\n", x, y);
+} 
