@@ -34,9 +34,8 @@ int main()
 	f();*/
 	
   
-  /*recursive(10);
-	
-	*/
+  /*recursive(10);*/
+  return 0;
 }
 void f() 
 {
