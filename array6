@@ -1,0 +1,79 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	//NULL문자: 문자열의 끝을 나타냄
+	/*int i;
+	char str[4];
+	str[0] = 'a';
+	str[1] = 'b';
+	str[2] = 'c';
+	str[3] = '\0';
+	i = 0;
+	while (str[i]!='\0')
+	{
+		printf("%c", str[i]);
+		i++;
+	}*/
+	//배열 이름 =시작주소
+	/*char str[] = "abc";
+	printf("%s", str);
+	printf(str);*/
+
+	/*char str1[6] = "seoul";
+	char str2[3] = { 'i','s','\0' };
+	char str3[] = "the capital city of korea";
+	printf("%s %s %s\n", str1, str2, str3);*/
+
+	/*char src[] = "The worst things to eat before tou sleep";
+	char dst[100];
+	int i=0;
+	printf("원본 문자열=%s\n", src);
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dst[i] = src[i];
+	}
+	dst[i] = '\0';
+	printf("복사된 문자열=%s\n", dst);
+	printf("%d", i);*/
+	/*int i = 0;
+	while (src[i]!='\0')
+		i++;
+	printf("문자열\"%s\"의 길이는%d입니다\n", src, i);*/
+
+	//문자열 길이
+	/*char str[30] = "C language is easy";
+	int i = 0;
+	while (str[i]!='\0')
+	{
+		i++;
+	}
+	printf("문자열\"%s\"의 길이는%d입니다\n", str, i);*/
+
+	
+
+
+
+
+	/*char s[3][6] = { "init","open","close" };
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; s[i][j] != '\0'; j++)
+			printf("%c", s[i][j]);
+		printf("\n");
+	}
+	for (int i = 0; i < 3; i++)
+	{
+			printf("%s", s[i]);
+		printf("\n");
+	}*/
+	//"%c", s[1][1];
+
+	//p.116
+	/*char str[100];
+	int alphabet[26] = { 0 };
+	int i = 0;
+	scanf("%s", str);*/
+
+	return 0;
+}
