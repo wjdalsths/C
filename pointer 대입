@@ -1,0 +1,15 @@
+// 포인터의 대입
+#include <stdio.h>
+int main() {
+  int a;
+  int* pa = &a;  //포인터 pa의 위치를 a의 위치로
+  int* pb;
+
+  *pa = 3;  //pa의 값을 3으로 지정
+  pb = pa;  //포인터 pb에 pa의 위치를 입력했으니까..
+
+  printf("pa 가 가리키고 있는 것 : %d \n", *pa);  //3
+  printf("pb 가 가리키고 있는 것 : %d \n", *pb);  //3
+
+  return 0;
+}
