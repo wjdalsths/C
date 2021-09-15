@@ -1,43 +1,39 @@
 #include<stdio.h>
-#pragma warning(disable:4996)
-
-#define STACK_SIZE 5
-typedef int element;
-element stack[STACK_SIZE];
-static int top = -1;
-void push(element item) {
-	if (top >= STACK_SIZE - 1) {
-		printf("STack is Full \n");
-		return;
-	}
-	else stack[++top] = item;
+#define MAX_SIZE 5
+int stack[MAX_SIZE];
+int top = -1, bottion = 0;
+int push(int num) {
+	if (IsFull() == 1)
+		printf("stack is full ");
+	else
+		stack[++top] = num;
 }
-element pop() {
-	if (top == -1) {
-		printf("Stack is Empty \n");
+int IsFull() {
+	if (top >= MAX_SIZE-1)
+		return 1;
+	else
 		return 0;
-	}
-	else return stack[top--];
 }
-element peek() {
-	if (top == -1) {
-		printf("Stack is Empty \n");
-	}
-	else return stack[top];
+int pop() {
+	if (IsEmpty() == 1)
+		printf("stack is empty ");
+	else
+		return stack[top--];
 }
-int main()
-{
-	push(10);
-	push(20);
-	push(30);	
-	push(40);
-	pop();
-	pop();
-	push(50);
-	push(60);
-	push(70);
-	for (int i = STACK_SIZE-1; i >= 0; i--) {
-		printf("%d : %d \n", i, stack[i]);
-	}
+int IsEmpty() {
+	if (top < 0)
+		return 1;
+	else
+		return 0;
 }
 
+int main() {
+	push(1);
+	push(2);
+	push(3);
+	push(4);
+	push(5);
+	push(6);
+	for(int i=0;i<5;i++)
+		printf("%d\n", pop());
+}
