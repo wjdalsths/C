@@ -10,10 +10,7 @@ void selection_sort();
 void marge_sort();
 int main()
 {
-	/*int x = 5, y = 10;
-	int z = x + y;
-	printf("%d", z);*/
-
+	
 	/*int A = 2, B = 3;
 	printf("%d", (A+B)*2);*/
 
@@ -131,7 +128,7 @@ int main()
 
 	char* t = strstr(str2, "DE");
 	printf("%s %d %d\n", t, t, t - str2);*/
-	//ÀÎµ¦½º¸¦ ¾Ë°í ½Í´Ù¸é str2¸¦ »©¾ßÇÑ´Ù.
+	//ì¸ë±ìŠ¤ë¥¼ ì•Œê³  ì‹¶ë‹¤ë©´ str2ë¥¼ ë¹¼ì•¼í•œë‹¤.
 
 	/*char str1[] = "bac";
 	char str2[] = "abc";
@@ -152,10 +149,10 @@ int main()
 	/*char nation[6] = "Korea";
 	printf("%s", nation);*/
 	
-	//±¸±¸´Ü
+	//êµ¬êµ¬ë‹¨
 	/*for (int i = 2; i < 10; i++)
 	{	
-		printf("\n   %d´Ü\n",i);
+		printf("\n   %dë‹¨\n",i);
 		for (int j = 1; j < 10; j++) {
 			printf("%d * %d = %d\n", i, j, i * j);
 		}
@@ -164,7 +161,7 @@ int main()
 	/*int a=2, b=1;
 	while (a<10)
 	{
-		printf("\n   %d´Ü\n", a);
+		printf("\n   %dë‹¨\n", a);
 		b = 1;
 		while (b<10)
 		{
@@ -218,13 +215,13 @@ int main()
 	scanf("%d", &n);
 	n1 = n - 2017;
 	a += n1;
-	printf("%d³â Áö¼öÀÇ ³ªÀÌ´Â %d¼¼ÀÔ´Ï´Ù",n,a);*/
+	printf("%dë…„ ì§€ìˆ˜ì˜ ë‚˜ì´ëŠ” %dì„¸ì…ë‹ˆë‹¤",n,a);*/
 
 
 	/*char a[30];
 	gets(a);
 	int n = strlen(a);
-	printf("¹®Àå±æÀÌ´Â%dÀÔ´Ï´Ù", n);*/
+	printf("ë¬¸ì¥ê¸¸ì´ëŠ”%dì…ë‹ˆë‹¤", n);*/
 
 
 	/*int num;
@@ -278,23 +275,23 @@ int main()
 	/*char a;
 	scanf("%c", &a);
 	if (a == 'A' || a == 'B')
-		printf("Âü ÀßÇß½À´Ï´Ù");
+		printf("ì°¸ ì˜í–ˆìŠµë‹ˆë‹¤");
 	else if (a == 'C' || a == 'D')
-		printf("Á» ´õ ³ë·ÂÇÏ¼¼¿ä");
+		printf("ì¢€ ë” ë…¸ë ¥í•˜ì„¸ìš”");
 	else
-		printf("´ÙÀ½ ÇĞ±â¿¡ ´Ù½Ã ¼ö°­ÇÏ¼¼¿ä");*/
+		printf("ë‹¤ìŒ í•™ê¸°ì— ë‹¤ì‹œ ìˆ˜ê°•í•˜ì„¸ìš”");*/
 
 	/*int age; char y;
 	scanf("%d", &age);
 	if (age >= 12)
-		printf("Åë°ú");
+		printf("í†µê³¼");
 	else {
-		printf("ºÎ¸ğ´Ô°ú µ¿Çà? y,n ");
+		printf("ë¶€ëª¨ë‹˜ê³¼ ë™í–‰? y,n ");
 		scanf(" %c", &y);
 		if (y == 'y')
-			printf("Åë°ú");
+			printf("í†µê³¼");
 		else
-			printf("°ÅÀı");
+			printf("ê±°ì ˆ");
 	}*/
 
 	/*int a, b,t;
@@ -327,7 +324,7 @@ int main()
 	case'-':printf("%d", n - n1); break;
 	case'*':printf("%d", n * n1); break;
 	case'/':printf("%d", n / n1); break;
-	default:printf("¿¬»êÀÚ°¡ Àß¸øµÊ");break;
+	default:printf("ì—°ì‚°ìê°€ ì˜ëª»ë¨");break;
 	}*/
 
 	/*int i = 2;
@@ -343,7 +340,7 @@ int main()
 	gets(c);
 	int num1, num2;
 	scanf("%d %d", &num1, &num2);
-	printf("%s¿¡¼­ ±¸°£[%d,%d]ÀÇ ºÎºĞ ¹®ÀÚ¿­Àº",c,num1,num2);
+	printf("%sì—ì„œ êµ¬ê°„[%d,%d]ì˜ ë¶€ë¶„ ë¬¸ìì—´ì€",c,num1,num2);
 	for (int i = num1; i <= num2; i++) {
 		printf("%c", c[i]);
 	}*/
@@ -397,9 +394,9 @@ int main()
 			s = 1;
 	}
 	if (s)
-		printf("¼Ò¼öx");
+		printf("ì†Œìˆ˜x");
 	else
-		printf("¼Ò¼ö");*/
+		printf("ì†Œìˆ˜");*/
 	
 	/*int n, n1=0,s=0;
 	scanf("%d", &n);
@@ -500,29 +497,29 @@ int main()
 	n1 = n / 10;
 	n = n % 10;
 	if (n == n1)
-		printf("½ÊÀÇ ÀÚ¸®¿Í ÀÏÀÇ ÀÚ¸®°¡ °°´Ù");
+		printf("ì‹­ì˜ ìë¦¬ì™€ ì¼ì˜ ìë¦¬ê°€ ê°™ë‹¤");
 	else
-		printf("½ÊÀÇ ÀÚ¸®¿Í ÀÏÀÇ ÀÚ¸®°¡ ´Ù¸£´Ù");*/
+		printf("ì‹­ì˜ ìë¦¬ì™€ ì¼ì˜ ìë¦¬ê°€ ë‹¤ë¥´ë‹¤");*/
 	
 	/*int p;
 	scanf("%d", &p);
 	if (p >= 200000)
-		printf("ÁöºÒ±İ¾×=%f", (float)p * 0.85);
+		printf("ì§€ë¶ˆê¸ˆì•¡=%f", (float)p * 0.85);
 	else if (p >=50000)
-		printf("ÁöºÒ±İ¾×=%f", (float)p * 0.9);
+		printf("ì§€ë¶ˆê¸ˆì•¡=%f", (float)p * 0.9);
 	else if (p >=10000)
-		printf("ÁöºÒ±İ¾×=%f", (float)p * 0.95);
+		printf("ì§€ë¶ˆê¸ˆì•¡=%f", (float)p * 0.95);
 	else
-		printf("ÁöºÒ±İ¾×=%d", p);*/
+		printf("ì§€ë¶ˆê¸ˆì•¡=%d", p);*/
 	
 	/*int n,n1;
 	scanf("%d", &n);
 	n1 = n / 10;
 	n = n % 10;
 	if (n == 9 || n == 6 || n == 3)
-		printf("Â¦");
+		printf("ì§");
 	if (n1 == 9 || n1 == 6 || n1 == 3)
-		printf("Â¦");*/
+		printf("ì§");*/
 
 	/*int cnt = 0;
 	for (int i = 2; i < 100; i++) {
@@ -610,7 +607,7 @@ int main()
 	/*char pass[20];
 	while (1)
 	{
-		printf("¾ÏÈ£ ÀÔ·Â>> ");
+		printf("ì•”í˜¸ ì…ë ¥>> ");
 		gets(pass);
 		int ncnt=0,acnt=0,Acnt=0;
 		for (int i = 0; pass[i] != NULL; i++) {
@@ -622,12 +619,12 @@ int main()
 				ncnt++;
 		}
 		if (acnt == 0 || Acnt == 0 || ncnt == 0)
-			printf("¾ÏÈ£¸¦ ´Ù½Ã ¸¸µé¶ó\n\n");
+			printf("ì•”í˜¸ë¥¼ ë‹¤ì‹œ ë§Œë“¤ë¼\n\n");
 		else if (acnt + Acnt + ncnt < 6)
-			printf("¾ÏÈ£¸¦ ´Ù½Ã ¸¸µé¶ó\n\n");
+			printf("ì•”í˜¸ë¥¼ ë‹¤ì‹œ ë§Œë“¤ë¼\n\n");
 		else
 		{
-			printf("¾ÏÈ£: %s", pass);
+			printf("ì•”í˜¸: %s", pass);
 			break;
 		}
 	}*/
@@ -650,7 +647,7 @@ int main()
 	/*char name[50] = { "Son jeongmin" };
 	printf("%s\n", name);
 	int n = strlen(name);
-	printf("¹®ÀÚ¿­ ±æÀÌ: %d\n", n);
+	printf("ë¬¸ìì—´ ê¸¸ì´: %d\n", n);
 	name1(n,&name);*/
 
 	/*int n0=0,n1=1;
@@ -660,30 +657,30 @@ int main()
 			n0++;
 		else
 			n1++;
-	}printf("¾Õ¸é: %d, µŞ¸é: %d", n0, n1);*/
+	}printf("ì•ë©´: %d, ë’·ë©´: %d", n0, n1);*/
 	
 	/*int a,n;
 	srand((unsigned)time(NULL));
-	printf("0°¡À§, 1¹ÙÀ§, 2º¸ >");
+	printf("0ê°€ìœ„, 1ë°”ìœ„, 2ë³´ >");
 	scanf("%d", &n);
 	a = rand() % 3;
 	if (a == n)
-		printf("¹«½ÂºÎ\n");
+		printf("ë¬´ìŠ¹ë¶€\n");
 	else if (n - a == 1||n-a==-2)
-		printf("»ç¶÷ ½Â\n");
+		printf("ì‚¬ëŒ ìŠ¹\n");
 	else
-		printf("ÄÄ ½Â\n");
-	printf("»ç¶÷:%d ÄÄ:%d", n, a);*/
+		printf("ì»´ ìŠ¹\n");
+	printf("ì‚¬ëŒ:%d ì»´:%d", n, a);*/
 
 	/*int n, a, c=0;
 	srand((unsigned)time(NULL));
 	a = rand() % 100;
 	while (1) {
-		printf("¼ıÀÚ >>");
+		printf("ìˆ«ì >>");
 		scanf("%d", &n);
 		c++;
 		if (n == a) {
-			printf("Á¤´ä\n");
+			printf("ì •ë‹µ\n");
 			break;
 		}
 		else if (n > a)
@@ -691,10 +688,10 @@ int main()
 		else if (n < a)
 			printf("UP\n");
 	}printf("%d\n", a);
-	printf("½Ãµµ È½¼ö: %d", c);*/
+	printf("ì‹œë„ íšŸìˆ˜: %d", c);*/
 		
 
-	//¾ß±¸ °ÔÀÓ
+	//ì•¼êµ¬ ê²Œì„
 	/*int ai[3];
 	srand((unsigned)time(NULL));
 	int p[3];
@@ -713,7 +710,7 @@ int main()
 	}
 	while (1)
 	{
-		printf("¼ıÀÚ 3°³(1~9) >>");
+		printf("ìˆ«ì 3ê°œ(1~9) >>");
 		scanf("%d %d %d", &p[0], &p[1], &p[2]);
 		st = 0; ba = 0;
 		for (int i = 0; i < 3; i++) {
@@ -729,7 +726,7 @@ int main()
 				break;
 		}
 		if (st == 3) {
-			printf("%dstrike ½Â¸®\n", st);
+			printf("%dstrike ìŠ¹ë¦¬\n", st);
 			break;
 		}
 		else if (st > 0)
@@ -740,19 +737,19 @@ int main()
 			printf("3out");
 	}*/
 	
-	//¼øÂ÷Å½»ö
+	//ìˆœì°¨íƒìƒ‰
 	/*int arr[] = {3, 5, 1, 7, 49, 26, 8, 11, 90, 99};
 	int n;
 	scanf("%d", &n);
 	for (int i = 0; i < sizeof(arr)/sizeof(int); i++){
 		if (arr[i] == n)
 		{
-			printf("%d¹æ¿¡¼­ %dÀ» Ã£À½", i, n);
+			printf("%dë°©ì—ì„œ %dì„ ì°¾ìŒ", i, n);
 			return 0;
 		}
-	}printf("Ã£Áö ¸øÇÔ");*/
+	}printf("ì°¾ì§€ ëª»í•¨");*/
 
-	//ÀÌºĞÅ½»ö
+	//ì´ë¶„íƒìƒ‰
 	/*int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
 	int n;
 	int left = 0, right = sizeof(arr) / sizeof(int)-1,mid=0;
@@ -762,14 +759,14 @@ int main()
 		mid = (left + right) / 2;
 		if (n == arr[mid])
 		{
-			printf("%d¹æ¿¡¼­ °ªÀ» Ã£À½", mid, n);
+			printf("%dë°©ì—ì„œ ê°’ì„ ì°¾ìŒ", mid, n);
 			return 0;
 		}
 		else if (n > arr[mid])
 			left = mid+1;
 		else if (n < arr[mid])
 			right = mid-1;
-	}printf("°ªÀ» Ã£Áö ¸øÇÔ");*/
+	}printf("ê°’ì„ ì°¾ì§€ ëª»í•¨");*/
 
 	
 	
@@ -777,7 +774,7 @@ int main()
 	
 	
 	
-	//¼±ÅÃÁ¤·Ä
+	//ì„ íƒì •ë ¬
 	//int n[5] = { 3,5,1,2,0 };
 	/*int min,t=0,p;
 	for (int i = 0; i < 5; i++) {
