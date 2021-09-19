@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+int main()
+{
+   //문자열 입력받아 the 개수 출력
+	/*char str[100];
+	gets(str);
+	int len=strlen(str), times = 0, t, h, e, space;
+	
+	for (int i = 0; i <=len; i++)
+	{
+		t = (str[i] == 't' || str[i] == 'T');
+		h = (str[i + 1] == 'h' || str[i + 1] == 'H');
+		e = (str[i + 2] == 'e' || str[i + 2] == 'E');
+		space = (str[i + 3] == ' ' || str[i + 3] == '\0');
+		if (t && h && e && space)
+			times++;
+	}
+	printf("the 개수는 %d", times);*/
+}
