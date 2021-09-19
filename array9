@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+int main()
+{
+  	//2차원 배열에 여러컬러를 저장하고 컬러를 조회하기
+	/*char color[5][10]={ "Red","Green","Yellow","Blue","Black" };
+	char str[10], answer='y';
+	int j;
+	while (1)
+	{
+		printf("찾을 컬러>> ");
+		gets(str);
+		for ( j = 0; j < 5; j++) 
+		{
+			if (strcmp( color[j],str) == 0)
+			{
+				printf("color[%d]에서 %s 찾음\n", j, color[j]);
+				break;
+			}
+		}
+		if (j == 5)
+			printf("%s는 찾지못함\n", str);
+
+		printf("계속함? y or n\n");
+		answer = getchar();
+		if (answer == 'n' || answer == 'N')
+			break;
+		getchar();
+	}*/
+}
