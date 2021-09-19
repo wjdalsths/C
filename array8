@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //2차원 배열을 초기하하고 'A'가 포함되어 있는 문자열만 출력
+    /*char words[6][20] = { "APPLE","BANANA","GRAPE","STRAWBERRY","KIWI","PEAR" };
+    for (int i = 0; i < 6; i++)
+      for (int j = 0; j < 20; j++) {
+        if (words[i][j] == 'A') {
+          printf("%s\n", words[i]);
+          break;
+        }
+        else if (words[i][j] == NULL)
+          break;
+      }*/
+ }
