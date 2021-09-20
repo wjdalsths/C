@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<time.h>
+#pragma warning(disable:4996)
+int main()
+{
+  //getchar() 예제
+	//getch,getche
+	/*char temp;
+	while ((temp=getche())!='\r') 
+		putchar(temp);
+	printf("\n종료\n");*/
+
+	//로그인 화면
+	//사용자 이름: gsm
+	//패스워드(8글자): ********
+	//당신의 패스워드는 : gsm6800
+
+	//char username[10], pw[9], ch; //pw: null문자까지 생각해서
+	//int i;
+	//puts("이름> ");
+	//gets(username);
+	//puts("8글자 비번>> ");
+}
