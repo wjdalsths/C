@@ -1,9 +1,17 @@
 #include<stdio.h>
 #include<malloc.h>
+#include<stdlib.h>
 typedef struct listnode {
     int data;
     struct  listnode* link;
 }node;
+void fremove(node* head, node* f, node* p) {
+    if (f == NULL)
+        head = head->link;
+    else
+        f->link = p->link;
+    free(p);
+}
 int main() {
     node* head = NULL;
     node* tail = NULL;
@@ -24,15 +32,19 @@ int main() {
 
             if (head == NULL) {
                 head = newnode;
-                tail = newnode;
+                //tail = newnode;
             }
-            else{
-                tail->link = newnode;
-                tail = newnode;
+            else {
+                /*tail->link = newnode;
+                tail = newnode;*/
+                newnode->link = head;
+                head = newnode;
             }
-
-        }  
+        }
     }
+    
+    
+    
     node* temp = head;
     while (temp)
     {
