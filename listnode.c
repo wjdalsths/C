@@ -7,71 +7,6 @@ typedef struct listnode {
 	struct  listnode* link;
 }node;
 
-void fremove(node* head, node* f, node* p) {
-	if (f == NULL)
-		head = head->link;
-	else
-		f->link = p->link;
-	free(p);
-}
-void rem(int de, node* head, node* tail) {
-	node* temp = head;
-	/*while (temp)
-	{
-		if (temp->data != de) {
-			temp = temp->link;
-		}
-		else if (temp->data == de) {
-			free(temp);
-		}
-
-	}*/
-	while (temp) {
-		if (temp->data == de) {
-			temp = temp->link;
-			continue;
-		}
-		printf("%d ", temp->data);
-		if (temp != tail) printf("-> ");
-		else break;
-		temp = temp->link;
-	}
-}
-node* rel(node* head, int data) {
-	node* pre;
-	node* removed;
-
-	pre = head;
-	while (pre != NULL) {
-		//±âÁ¸ lisd 10 20 30 40 »ğÀÔ : 15
-		if (pre->data < data) {
-			break;
-		}
-		pre = pre->link;
-	}
-	//»èÁ¦ÇÒ °ÍÀÌ ¾ø´Ù
-	if (head == NULL) {
-		return NULL;
-	}
-	else if (pre == NULL) {
-		removed = head;
-		head = removed->link;
-		free(removed);
-	}
-	//¸Ç³¡
-	else if (pre->link == NULL) {
-		free(pre);
-	}
-	//Áß°£ °ª »èÁ¦
-	else {
-		removed = pre->link;
-		pre->link = removed->link;
-		free(removed);
-	}
-
-	return head;
-}
-
 int main() {
 	int de = 0;
 	node* head = NULL;
@@ -104,10 +39,9 @@ int main() {
 		}
 	}
 
-	printf("Áö¿ï °ª>> ");
+	printf("ì§€ìš¸ ê°’>> ");
 	scanf_s("%d", &de);
-	//rem(de, head,tail);
-	//rel(head, de);
+	
 	node* tem = head;
 	while (tem) {
 		if (tem->data == de) {
@@ -122,26 +56,7 @@ int main() {
 	printf("NULL\n");
 
 
-	/* node* temp = head;
-	 while (temp)
-	 {
-		 printf("%d\n", temp->data);
-		 temp = temp->link;
-	 }*/
-
-	 //Printlist(head);
+	
 
 	return 0;
-}
-void Printlist(node* head) {
-	/*for (node* i = head; i != NULL; i = i->link) {
-		printf("%d -> ", i->data);
-	}
-	printf("NULL\n");*/
-	node* temp = head;
-	while (temp)
-	{
-		printf("%d\n", temp->data);
-		temp = temp->link;
-	}
 }
